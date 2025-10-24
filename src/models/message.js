@@ -13,5 +13,6 @@ const MessageSchema = new mongoose.Schema({
 MessageSchema.index({ senderId: 1, receiverId: 1, date_time: -1 })
 MessageSchema.index({ receiverId: 1, senderId: 1, date_time: -1 })
  
+
 module.exports = mongoose.model('Message', MessageSchema);
   

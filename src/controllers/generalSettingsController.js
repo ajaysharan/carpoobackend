@@ -1,6 +1,6 @@
 const { clean } = require("../helpers/string");
 const GeneralSetting = require("../models/Setting");
-const Storage = require("../helpers/Storage");
+const Storage = require("../helpers/storage");
 const { default: mongoose } = require("mongoose"); 
 
 exports.getGeneralSetting = async (req, res) => {

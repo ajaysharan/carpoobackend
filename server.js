@@ -18,7 +18,7 @@ const jwt = require("jsonwebtoken");
 const { default: mongoose } = require('mongoose');
 
 // CORS setup
-const origin = [undefined, 'http://localhost:5173', 'http://localhost:5174'];
+const origin = [undefined, 'https://carpoolweb.vercel.app', 'https://carpooladmin.vercel.app'];
 
 app.use(cors({ origin, credentials: true }));
 
